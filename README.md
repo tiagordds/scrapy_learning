@@ -1,0 +1,1 @@
+This is a simple project that i use to test and learn the framework Scrapy.
