@@ -1,4 +1,5 @@
 import scrapy
+# from scrapy.selector import Selector
 
 
 class HackernewsSpider(scrapy.Spider):
@@ -7,22 +8,17 @@ class HackernewsSpider(scrapy.Spider):
     start_urls = ["https://news.ycombinator.com"]
 
     def parse(self, response):
-        all_title = response.css('span.titleline')
-        sub_line = response.css('span.subline')
+        all_page = response.css('#hnmain')
+        x = 0
+        while x < 31:
 
-        for title_line in all_title:
-            title = title_line.css('a::text').extract()
-
-            yield {
-                'title': title
-            }
-
-        for post_information in sub_line:
-            points = post_information.css('span.score::text').extract()
-            author = post_information.css('a.hnuser::text').extract()
-            time = post_information.css('span.age::attr(title)').extract()
-            yield {
-                'points': points,
-                'author': author,
-                'time': time,
-            }
+            for post_info in all_page:
+                all_title = post_info.css("span.titleline")
+                title = all_title.css("a::text")[x].get()
+                all_info = post_info.css("span.subline")
+                points = all_info.css("span.score::text")[x].get()
+                yield {
+                    'title': title,
+                    'points': points
+                }
+                x += 1
