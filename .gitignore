@@ -7,7 +7,6 @@ docs/build
 *egg-info
 .tox
 venv
-hacker_news.json
 build
 dist
 .idea
