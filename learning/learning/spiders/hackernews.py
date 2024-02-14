@@ -11,23 +11,16 @@ class HackernewsSpider(scrapy.Spider):
         all_body = response.xpath(
             "//table[@id='hnmain']")
 
-        body = (all_body.css("span.titleline a::text").getall(),
-                all_body.css("span.score::text").getall(),
-                all_body.css("span.age::attr(title)").getall(),
-                all_body.css("a.hnuser::text").getall())
-
-        print('*' * 100)
-        title = (body[0])
-        score = (body[1])
-        hour = (body[2])
-        author = (body[3])
+        title = all_body.css("span.titleline a::text").getall()
+        score = all_body.css("span.score::text").getall()
+        hour = all_body.css("span.age::attr(title)").getall()
+        author = all_body.css("a.hnuser::text").getall()
 
         for title_, points_, hour_, author_ in zip(title, score, hour, author):
-            post_info = []
-            post_info.append(title_)
-            post_info.append(author_)
-            post_info.append(points_)
-            post_info.append(hour_)
+
             yield {
-                'Post Info': post_info
+                'title': title_,
+                'points': points_,
+                'hour': hour_,
+                'author': author_,
             }
