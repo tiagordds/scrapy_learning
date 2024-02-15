@@ -10,10 +10,11 @@ class VivarealSpider(scrapy.Spider):
     def parse(self, response):
         all_text = response.css('main > section.sc-17znhs8-0.gbFAEp > div')
 
-        for info in all_text:
-            yield {
-                # 'valor': info.css('h3::text').get(),
-                'detalhes': info.css('h4::text').getall(),
-            }
+        valor = all_text.css('h3::text').getall()
+        detalhes = all_text.css('h4::text').getall()
 
-# __next > div > main > section.sc-17znhs8-0.gbFAEp > div
+        for valor_, detalhes_ in zip(valor, detalhes):
+            yield {
+                'valor': valor_,
+                'detalhes': detalhes_
+            }
