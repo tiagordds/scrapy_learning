@@ -1,14 +1,14 @@
 [
-{"valor": "R$ 10.640 ", "detalhes": "183 m² · 3 quartos · 2 vagas"},
-{"valor": "R$ 3.079 ", "detalhes": "Servidão Feliciano Martins Vieira, Itacorubi · Florianópolis"},
-{"valor": "R$ 10.680 ", "detalhes": "31 m² · 1 quarto · 1 vaga"},
-{"valor": "R$ 9.025 ", "detalhes": "Rua Nilo Cordeiro Dutra, Carvoeira · Florianópolis"},
-{"valor": "R$ 1.026 ", "detalhes": "182 m² · 3 quartos"},
-{"valor": "R$ 2.413 ", "detalhes": "Servidão Feliciano Martins Vieira, Itacorubi · Florianópolis"},
-{"valor": "R$ 3.996 ", "detalhes": "98 m² · 3 quartos · 2 vagas"},
-{"valor": "R$ 2.621 ", "detalhes": "Avenida Campeche, Campeche · Florianópolis"},
-{"valor": "R$ 4.563 ", "detalhes": "15 m²"},
-{"valor": "R$ 1.618 ", "detalhes": "Rua José Ventura, Trindade · Florianópolis"},
-{"valor": "R$ 9.289 ", "detalhes": "55 m² · 2 quartos · 1 vaga"},
-{"valor": "R$ 1.612 ", "detalhes": "Rua Acelon Pachêco da Costa, Itacorubi · Florianópolis"}
+{"detalhes": ["31 m² · 1 quarto · 1 vaga", "Rua Nilo Cordeiro Dutra, Carvoeira · Florianópolis"]},
+{"detalhes": ["183 m² · 3 quartos · 2 vagas", "Servidão Feliciano Martins Vieira, Itacorubi · Florianópolis"]},
+{"detalhes": ["98 m² · 3 quartos · 2 vagas", "Avenida Campeche, Campeche · Florianópolis"]},
+{"detalhes": ["60 m² · 1 quarto · 1 vaga", "Servidão Cisne Real, Ingleses do Rio Vermelho · Florianópolis"]},
+{"detalhes": ["15 m²", "Rua José Ventura, Trindade · Florianópolis"]},
+{"detalhes": ["55 m² · 2 quartos · 1 vaga", "Rua Acelon Pachêco da Costa, Itacorubi · Florianópolis"]},
+{"detalhes": ["60 m² · 2 quartos", "Servidão Carminati, Saco dos Limões · Florianópolis"]},
+{"detalhes": ["173 m² · 4 quartos · 4 vagas", "Estrada Cristóvão Machado de Campos, Vargem Grande · Florianópolis"]},
+{"detalhes": ["182 m² · 3 quartos", "Servidão Feliciano Martins Vieira, Itacorubi · Florianópolis"]},
+{"detalhes": ["81 m² · 2 quartos · 2 vagas", "Rua Santos Saraiva, Estreito · Florianópolis"]},
+{"detalhes": ["30 m² · 1 quarto · 1 vaga", "Servidão Altino Manoel Claudino, São João do Rio Vermelho · Florianópolis"]},
+{"detalhes": ["200 m² · 4 quartos · 2 vagas", "Servidão do Lampião, Campeche · Florianópolis"]}
 ]
