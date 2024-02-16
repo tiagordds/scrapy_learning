@@ -1,14 +1,14 @@
 [
-{"detalhes": ["31 m² · 1 quarto · 1 vaga", "Rua Nilo Cordeiro Dutra, Carvoeira · Florianópolis"]},
-{"detalhes": ["183 m² · 3 quartos · 2 vagas", "Servidão Feliciano Martins Vieira, Itacorubi · Florianópolis"]},
-{"detalhes": ["98 m² · 3 quartos · 2 vagas", "Avenida Campeche, Campeche · Florianópolis"]},
-{"detalhes": ["60 m² · 1 quarto · 1 vaga", "Servidão Cisne Real, Ingleses do Rio Vermelho · Florianópolis"]},
-{"detalhes": ["15 m²", "Rua José Ventura, Trindade · Florianópolis"]},
-{"detalhes": ["55 m² · 2 quartos · 1 vaga", "Rua Acelon Pachêco da Costa, Itacorubi · Florianópolis"]},
-{"detalhes": ["60 m² · 2 quartos", "Servidão Carminati, Saco dos Limões · Florianópolis"]},
-{"detalhes": ["173 m² · 4 quartos · 4 vagas", "Estrada Cristóvão Machado de Campos, Vargem Grande · Florianópolis"]},
-{"detalhes": ["182 m² · 3 quartos", "Servidão Feliciano Martins Vieira, Itacorubi · Florianópolis"]},
-{"detalhes": ["81 m² · 2 quartos · 2 vagas", "Rua Santos Saraiva, Estreito · Florianópolis"]},
-{"detalhes": ["30 m² · 1 quarto · 1 vaga", "Servidão Altino Manoel Claudino, São João do Rio Vermelho · Florianópolis"]},
-{"detalhes": ["200 m² · 4 quartos · 2 vagas", "Servidão do Lampião, Campeche · Florianópolis"]}
+{"preco": "R$ 3.079 ", "detalhes": ["31 m² · 1 quarto · 1 vaga", "Rua Nilo Cordeiro Dutra, Carvoeira · Florianópolis"]},
+{"preco": "R$ 10.640 ", "detalhes": ["183 m² · 3 quartos · 2 vagas", "Servidão Feliciano Martins Vieira, Itacorubi · Florianópolis"]},
+{"preco": "R$ 2.714 ", "detalhes": ["32 m² · 1 quarto", "Rua Hypólito Gregório Pereira, Canasvieiras · Florianópolis"]},
+{"preco": "R$ 9.025 ", "detalhes": ["98 m² · 3 quartos · 2 vagas", "Avenida Campeche, Campeche · Florianópolis"]},
+{"preco": "R$ 1.026 ", "detalhes": ["15 m²", "Rua José Ventura, Trindade · Florianópolis"]},
+{"preco": "R$ 1.369 ", "detalhes": ["60 m² · 1 quarto · 1 vaga", "Servidão Cisne Real, Ingleses do Rio Vermelho · Florianópolis"]},
+{"preco": "R$ 2.413 ", "detalhes": ["55 m² · 2 quartos · 1 vaga", "Rua Acelon Pachêco da Costa, Itacorubi · Florianópolis"]},
+{"preco": "R$ 2.621 ", "detalhes": ["60 m² · 2 quartos", "Servidão Carminati, Saco dos Limões · Florianópolis"]},
+{"preco": "R$ 10.470 ", "detalhes": ["173 m² · 4 quartos · 4 vagas", "Estrada Cristóvão Machado de Campos, Vargem Grande · Florianópolis"]},
+{"preco": "R$ 10.680 ", "detalhes": ["182 m² · 3 quartos", "Servidão Feliciano Martins Vieira, Itacorubi · Florianópolis"]},
+{"preco": "R$ 1.618 ", "detalhes": ["30 m² · 1 quarto · 1 vaga", "Servidão Altino Manoel Claudino, São João do Rio Vermelho · Florianópolis"]},
+{"preco": "R$ 4.563 ", "detalhes": ["81 m² · 2 quartos · 2 vagas", "Rua Santos Saraiva, Estreito · Florianópolis"]}
 ]

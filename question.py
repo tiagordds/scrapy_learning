@@ -8,11 +8,9 @@ class VivarealSpider(scrapy.Spider):
         "https://www.quintoandar.com.br/alugar/imovel/florianopolis-sc-brasil"]
 
     def parse(self, response):
-        rows = response.css('.gnxvcs')
-        price = rows.css('h3::text').getall()
-        for i, row in enumerate(rows):
-            price_ = price[i]
+        body = response.css('main > section.sc-17znhs8-0.gbFAEp > div')
+
+        for info in body:
             yield {
-                'preco': price_,
-                'detalhes': row.css('h4::text').getall(),
+                'detalhes': info.css('h4::text').getall()
             }
