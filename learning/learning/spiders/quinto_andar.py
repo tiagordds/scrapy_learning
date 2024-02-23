@@ -9,10 +9,12 @@ class VivarealSpider(scrapy.Spider):
 
     def parse(self, response):
         rows = response.css('.gnxvcs')
-        price = rows.css('h3::text').getall()
+
+        price = rows.css('h3::text').get()
+
         for i, row in enumerate(rows):
             price_ = price[i]
             yield {
                 'preco': price_,
-                'detalhes': row.css('h4::text').getall(),
+                'detalhes': row.css('h4::text').get(),
             }
